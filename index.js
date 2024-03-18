@@ -57,6 +57,6 @@ function memoized (opts) {
 
 module.exports = {
   memoized,
-  constants,
-  methods
+  ...constants,
+  ...methods
 };

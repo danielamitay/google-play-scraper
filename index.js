@@ -55,4 +55,8 @@ function memoized (opts) {
     R.map(doMemoize, otherMethods));
 }
 
-export default Object.assign({ memoized }, constants, methods);
+module.exports = {
+  memoized,
+  constants,
+  methods
+};

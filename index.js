@@ -1,17 +1,17 @@
-import * as R from 'ramda';
-import { constants } from './lib/constants.js';
-import memoizee from 'memoizee';
-import appMethod from './lib/app.js';
+const R = require('ramda');
+const { constants } = require('./lib/constants.js');
+const memoizee = require('memoizee');
+const appMethod = require('./lib/app.js');
 
-import list from './lib/list.js';
-import search from './lib/search.js';
-import suggest from './lib/suggest.js';
-import developer from './lib/developer.js';
-import reviews from './lib/reviews.js';
-import similar from './lib/similar.js';
-import permissions from './lib/permissions.js';
-import datasafety from './lib/datasafety.js';
-import categories from './lib/categories.js';
+const list = require('./lib/list.js');
+const search = require('./lib/search.js');
+const suggest = require('./lib/suggest.js');
+const developer = require('./lib/developer.js');
+const reviews = require('./lib/reviews.js');
+const similar = require('./lib/similar.js');
+const permissions = require('./lib/permissions.js');
+const datasafety = require('./lib/datasafety.js');
+const categories = require('./lib/categories.js');
 
 const methods = {
   app: appMethod,
